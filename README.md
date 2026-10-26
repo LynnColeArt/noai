@@ -89,7 +89,7 @@ The mathematics are real. The significance is entirely our own.
 For an ASCII letter $c_i$ at zero-based position $i$ in token $w$:
 
 $$
-\operatorname{SET}_{\kappa}(w)_i = \alpha^{-1}\left(\left[\alpha(c_i)+1+\left(H(\kappa,w,i)\bmod25\right)\right]\bmod26\right)
+\mathrm{SET}_{\kappa}(w)_i = \alpha^{-1}\left(\left[\alpha(c_i)+1+\left(H(\kappa,w,i)\bmod25\right)\right]\bmod26\right)
 $$
 
 - $\alpha$ maps letters to integers from 0 to 25; original case is restored.
