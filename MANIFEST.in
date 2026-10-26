@@ -1,0 +1,5 @@
+include LICENSE MANIFESTO.md evacuate.py
+recursive-include docs *.html *.css *.svg .nojekyll
+recursive-include examples *.html *.css *.svg
+recursive-include tests *.py
+recursive-include tools *.py

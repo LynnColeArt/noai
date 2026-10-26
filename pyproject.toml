@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noai-set"
+version = "0.1.0"
+description = "Protect your voice. Remove your words. A satirical HTML text garbler."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "NoAI contributors"}]
+dependencies = []
+
+[project.scripts]
+noai = "noai.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
